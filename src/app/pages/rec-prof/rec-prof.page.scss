@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    height: 100%;
+    background-color: #001b35;
+    padding: 20px;
+  }
+  
+    .image-container {
+    margin: 10px 0;
+    margin-bottom: 40px;
+  }
+  
+  .image-container img {
+    max-width: 350px;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .email-field {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+
+    ion-icon {
+        color: #000a51;
+      }
+      ion-input {
+        color: #000a51
+      }
+  }
+
+  
+  .description {
+    font-size: 16px;
+    color: #ffbd59; 
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    width: 80%;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
